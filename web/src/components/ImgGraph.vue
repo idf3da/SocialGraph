@@ -27,6 +27,7 @@
 				const material = new THREE.SpriteMaterial({ map: imgTexture });
 				const sprite = new THREE.Sprite(material);
 				sprite.scale.set(16, 16);
+				console.log(sprite);
 				return sprite;
 			}).graphData(gData);
 		},
