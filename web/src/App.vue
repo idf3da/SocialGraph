@@ -38,19 +38,22 @@
 		</v-app-bar>
 
 		<v-main>
-			<Graph />
+			<!-- <ImgGraph /> -->
+			<BasicGraph />
 		</v-main>
 	</v-app>
 </template>
 
 <script>
-	import Graph from "./components/Graph";
+	// import ImgGraph from "./components/ImgGraph";
+	import BasicGraph from "./components/BasicGraph";
 
 	export default {
 		name: "App",
 
 		components: {
-			Graph,
+			// ImgGraph,
+			BasicGraph,
 		},
 
 		data: () => ({
